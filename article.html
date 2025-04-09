@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>News Flash International - Breaking News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset et polices */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* En-tête général */
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 10px;
+      border-bottom: 4px solid #d32f2f;
+    }
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 0;
+    }
+    nav ul li a:hover {
+      color: #d32f2f;
+    }
+
+    /* Contenu principal */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+    }
+    .main-content {
+      flex: 3;
+      margin-right: 20px;
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+    .sidebar {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      min-width: 250px;
+    }
+    
+    /* Article breaking news */
+    .breaking-news {
+      border-bottom: 2px solid #d32f2f;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .breaking-news h1 {
+      color: #d32f2f;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .breaking-news p.date {
+      font-size: 0.9em;
+      color: #999;
+      margin-bottom: 15px;
+    }
+    .breaking-news p {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    
+    /* Autres articles */
+    .other-articles {
+      margin-top: 40px;
+    }
+    .other-articles h2 {
+      margin-bottom: 15px;
+      color: #d32f2f;
+      font-size: 1.8em;
+    }
+    .article-card {
+      border-bottom: 1px solid #eee;
+      padding: 15px 0;
+    }
+    .article-card:last-child {
+      border-bottom: none;
+    }
+    .article-card h3 {
+      font-size: 1.3em;
+      margin-bottom: 8px;
+    }
+    .article-card p {
+      font-size: 0.95em;
+      color: #666;
+    }
+
+    /* Sidebar styles */
+    .sidebar h3 {
+      color: #d32f2f;
+      margin-bottom: 15px;
+      font-size: 1.4em;
+    }
+    .sidebar ul {
+      list-style: none;
+    }
+    .sidebar ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .sidebar ul li:last-child {
+      border-bottom: none;
+    }
+    .sidebar ul li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .sidebar ul li a:hover {
+      color: #d32f2f;
+    }
+
+    /* Pied de page */
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <div class="logo">News Flash International</div>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Monde</a></li>
+        <li><a href="#">Politique</a></li>
+        <li><a href="#">Économie</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Tech</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteneur principal -->
+  <div class="container">
+    <!-- Contenu principal -->
+    <div class="main-content">
+      <div class="breaking-news">
+        <h1>Breaking News : Le Dual du Dual n'est plus le Primal !</h1>
+        <p class="date">Publié le 09 avril 2025, 08:30</p>
+        <p>
+          Dans un tournant historique qui secoue le monde académique et philosophique, 
+          de nouvelles recherches viennent remettre en cause les principes établis. 
+          Les experts s'accordent désormais pour dire que le dual du dual ne correspond plus 
+          au concept de primal tel que nous le connaissions jusque-là.
+        </p>
+        <p>
+          Cette découverte, fruit de plusieurs années d'études multidisciplinaires, promet 
+          de redéfinir les paradigmes de réflexion dans divers domaines, allant de la physique 
+          théorique à la philosophie. Des conférences internationales sont déjà programmées pour 
+          approfondir ce débat et examiner les conséquences de cette nouvelle approche.
+        </p>
+      </div>
+
+      <div class="other-articles">
+        <h2>Autres articles récents</h2>
+        <div class="article-card">
+          <h3>Implications pour la science moderne</h3>
+          <p>Les répercussions sur le domaine scientifique pourraient être majeures, 
+             affectant la manière dont sont interprétées les structures fondamentales de l'univers.</p>
+        </div>
+        <div class="article-card">
+          <h3>Les réactions du monde philosophique</h3>
+          <p>Des voix s'élèvent dans la communauté philosophique pour questionner et 
+             redéfinir le concept même de dualité et de primalité.</p>
+        </div>
+        <div class="article-card">
+          <h3>Un nouveau départ pour la recherche</h3>
+          <p>Avec cette annonce, plusieurs institutions annoncent d'importants investissements 
+             dans des projets de recherche axés sur cette nouvelle conception théorique.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barre latérale -->
+    <aside class="sidebar">
+      <h3>À la Une</h3>
+      <ul>
+        <li><a href="#">Décryptage : La transformation du dualisme</a></li>
+        <li><a href="#">Interview exclusive avec un expert en philosophie</a></li>
+        <li><a href="#">Analyse : Quand la science défie les conventions</a></li>
+        <li><a href="#">Focus : Les grandes réformes de la recherche contemporaine</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>© 2025 News Flash International - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
